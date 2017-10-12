@@ -8,12 +8,10 @@
 </head>
 <body>
     <?php
- function double_print($text){
-     print($text. $text);
- }
-
- double_print("a");
- double_print("bc");
-    ?>
+    $a = array("one", "two", "three");
+    $a[] = "four";
+    $a[0] = "one?";
+    print_r($a);
+ ?>
 </body>
 </html>

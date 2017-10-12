@@ -8,12 +8,12 @@
 </head>
 <body>
     <?php
-   $a = 5;
-   if($a == 3) {
-       print("$a is 3");
-   }else{
-       print("$a is not 3");
-   }
+ function double_print($text){
+     print($text. $text);
+ }
+
+ double_print("a");
+ double_print("bc");
     ?>
 </body>
 </html>

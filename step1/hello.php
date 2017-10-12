@@ -8,10 +8,9 @@
 </head>
 <body>
     <?php
-    $a = array("one", "two", "three");
-    $a[] = "four";
-    $a[0] = "one?";
-    print_r($a);
+    $hash = array("one" => "いち", "two" => "に", "three" => "さん");
+    $hash["four"] = "よん";
+    print_r($hash);
  ?>
 </body>
 </html>
